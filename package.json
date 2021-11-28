@@ -1,0 +1,27 @@
+{
+  "name": "deepl-aided-semi-automatic-book-translation",
+  "version": "1.0.0",
+  "description": "用 Python 脚本调用 DeepL API 进行电子书的自动翻译",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shen-huang/DeepL-Aided-Semi-automatic-Book-Translation.git"
+  },
+  "author": "沈璜",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shen-huang/DeepL-Aided-Semi-automatic-Book-Translation/issues"
+  },
+  "homepage": "https://github.com/shen-huang/DeepL-Aided-Semi-automatic-Book-Translation#readme",
+  "dependencies": {
+    "webpack": "^5.64.4"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.27"
+  }
+}
